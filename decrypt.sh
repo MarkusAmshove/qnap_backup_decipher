@@ -12,5 +12,5 @@ case $# in
 	   exit 0;;
 esac
 
-java -jar $DIR/hbs_decipher.jar -i $IN  -o $OUT -v
+java -jar ./target/hbs_decipher.jar -i $IN  -o $OUT -v
 
